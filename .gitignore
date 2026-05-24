@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+outputs/
+*.tsv
+*.tsv.no_match
+*.tsv.invalid.tsv
+*.tsv.summary.tsv
+*.fa.fai
+*.fasta.fai
+*.fna.fai

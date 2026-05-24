@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ac-kmer-mapping"
+version = "0.1.0"
+description = "Map exact k-mer instances onto FASTA references with Aho-Corasick."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyahocorasick>=2.0"]
+
+[project.scripts]
+map-kmers-ac = "map_kmers_ac:main"
+tally-kmer-hits = "tally_kmer_hits:main"
+
+[tool.setuptools]
+py-modules = ["map_kmers_ac", "tally_kmer_hits"]

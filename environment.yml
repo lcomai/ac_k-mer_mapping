@@ -1,0 +1,8 @@
+name: ac-kmer-mapping
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+      - pyahocorasick>=2.0
